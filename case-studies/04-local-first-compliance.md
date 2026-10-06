@@ -2,7 +2,7 @@
 
 **System:** MCStanding — a data-broker compliance cockpit
 **Stack:** Vite, React, JavaScript, `node --test`
-**Status:** Built and tested. 205 test cases across 8 suites.
+**Status:** Live at mcstanding.millennialscreatives.com. 304 tests across 55 suites.
 
 ---
 
@@ -20,7 +20,7 @@ trying to discharge, and has made itself a breach target on their behalf.
 
 1. **Regulated personal data must not leave the customer's machine.** Not encrypted in transit to
    us. Not sent at all.
-2. **Nine jurisdictions with different rules**, and more arriving as states legislate.
+2. **Eleven regimes with different rules**, and more arriving as states legislate.
 3. **Every date, fee and penalty must be checkable**, because a user will act on them and their
    counsel will ask where the number came from.
 
@@ -56,7 +56,7 @@ invented figure discredits every honest one.
 
 ## How I know it works
 
-**What is verified:** 205 test cases across 8 suites, covering the matching engine, suppression
+**What is verified:** 304 tests across 55 suites, covering the matching engine, suppression
 handling, regime profiles, exposure calculation, evidence generation, conformance, licensing and
 health checks. The jurisdiction-neutral engine is tested independently of the profiles, so a new
 regime cannot silently change behaviour for an existing one.

@@ -16,7 +16,7 @@ architecture decision in the case studies below.
 | **[A safety pipeline that runs before generation](case-studies/01-safety-first-langgraph.md)** | LangGraph `StateGraph`, guardrail-first routing, human-in-the-loop interrupt and resume |
 | **[Grounded scoring instead of a confident number](case-studies/02-grounded-scoring.md)** | Retrieval over federal award history, calibration against outcomes, every score defensible |
 | **[Evaluating what a model does, not what it knows](case-studies/03-llm-failure-evaluation.md)** | Behavioural evaluation on ambiguous and crisis-adjacent inputs |
-| **[Local-first architecture as a privacy guarantee](case-studies/04-local-first-compliance.md)** | Regulated data that never leaves the browser, 205 tests, citation-backed rules |
+| **[Local-first architecture as a privacy guarantee](case-studies/04-local-first-compliance.md)** | Regulated data that never leaves the browser, 304 tests, citation-backed rules |
 
 Each one follows the same structure: the problem, the constraints that actually drove the design,
 the architecture, the decisions I would defend in review, **how I know whether it works**, and what
