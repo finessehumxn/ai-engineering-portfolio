@@ -64,10 +64,11 @@ round trip and makes the confirmation meaningful.
 and much harder to reason about. With discrete nodes I can state plainly which paths can reach the
 generation step. That property is worth the extra structure.
 
-**Local-first, AI-optional, no storage by default.** The product runs without sending anything
-anywhere, and history storage is off unless explicitly enabled. The claims on the marketing page had
-to stay literally true against the shipped defaults, which is a constraint I applied to the copy as
-well as the code.
+**Marketing claims held to the shipped defaults.** Whatever the product page says about what data
+goes where has to stay literally true against the build in the store. When the design changed so
+that a patient's saved health context is sent with each question to give better answers, the data
+policy and trust pages were rewritten in the same change. I treat that copy as part of the system,
+not as decoration around it.
 
 ## How I know it works
 
